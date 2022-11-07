@@ -4,9 +4,18 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer base {
   body {
-    @apply font-sans
+    @apply font-sans;
+  }
+
+  .lk {
+    background-position: 0 0;
+    background-size: 50px;
+    line-height: 1.3em;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
   }
 }

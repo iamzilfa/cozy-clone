@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Navbar() {
   return (
-    <div className="bg-banner">
+    <div className="bg-banner fixed left-0 top-0 right-0 overflow-hidden w-full">
         <div className="flex justify-between items-center ml-6 mr-2 max-w-[312.5rem] bg-transparent">
             <div className="py-5 px-[0.9375rem]">
                 <img src="/assets/vectors/Cozy_logo_canvas.svg" alt=""  className="w-[100px] h-[68.66px]"/>

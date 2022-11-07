@@ -8,11 +8,12 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: "'Fraunces', serif",
+        sans: "'Fraunces",
       },
       backgroundImage: {
         banner: "linear-gradient(270deg,#302f39,#223240 95%)",
-        headbg:"linear-gradient(90deg,#302f39,#223240)"
+        headbg:"linear-gradient(90deg,#302f39,#223240)",
+        noisebg:"url('/assets/images/noise10.webp')"
       },
       colors: {
         cameo: "#d4ac8e",
