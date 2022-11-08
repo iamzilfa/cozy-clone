@@ -5,7 +5,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Navbar />
-      <main>{children}</main>
+      <main className="overflow-hidden">{children}</main>
       <Footer />
     </>
   );
