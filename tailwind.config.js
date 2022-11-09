@@ -6,17 +6,17 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    screens: {
-      sm: "479px",
-      // => @media (min-width: 479px) { ... }
-
-      md: "767px",
-      // => @media (min-width: 767px) { ... }
-
-      lg: "991px",
-      // => @media (min-width: 991px) { ... }
-    },
     extend: {
+      screens: {
+        ssm: "479px",
+        // => @media (max-width: 479px) { ... }
+
+        mmd: "767px",
+        // => @media (max-width: 767px) { ... }
+
+        llg: "991px",
+        // => @media (max-width: 991px) { ... }
+      },
       fontFamily: {
         sans: ["Fraunces", "cursive"],
         frauncesItalic: ["FrauncesItalic", "cursive"],
@@ -28,12 +28,14 @@ module.exports = {
         geomanist: ["Geomanist", "cursive"],
         geomanistBold: ["GeomanistBold", "cursive"],
         robot: "'Roboto', sans-serif",
+        palanquin: "'Palanquin', sans-serif",
       },
       backgroundImage: {
         banner: "linear-gradient(270deg,#302f39,#223240 95%)",
         headbg: "linear-gradient(90deg,#302f39,#223240)",
         noisebg: "url('/assets/images/noise10.webp')",
         abtbg: "url('/assets/vectors/stacked-waves-haikei.svg')",
+        helpgrad:"linear-gradient(180deg,rgba(0,0,0,.8),rgba(0,0,0,.8))"
       },
       colors: {
         cameo: "#d4ac8e",
@@ -55,6 +57,9 @@ module.exports = {
         stell: "#16313a",
         seal: "#223240",
         lightBlue: "#1da1f2",
+      },
+      boxShadow: {
+        'xll': '0 8px 24px 0 rgb(82 91 115 / 12%',
       },
     },
   },

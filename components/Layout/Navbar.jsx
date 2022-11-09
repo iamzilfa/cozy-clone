@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function Navbar() {
   return (
     <div className="bg-banner z-50 fixed left-0 top-0 right-0 overflow-hidden w-full">
-      <div className="flex justify-center lg:justify-between space-x-5  items-center ml-6 mr-2 max-w-[312.5rem] bg-transparent">
+      <div className="flex justify-center llg:justify-between space-x-5  items-center ml-6 mr-2 max-w-[312.5rem] bg-transparent">
         <div className="py-5 px-[0.9375rem]">
           <Image
             src="/assets/vectors/Cozy_logo_canvas.svg"
@@ -19,10 +19,10 @@ export default function Navbar() {
             height={68.66}
           />
         </div>
-        <div className="block lg:hidden text-sandash p-[1.125rem]">
+        <div className="block llg:hidden text-sandash p-[1.125rem]">
           <FontAwesomeIcon icon={faBars} size="2x" />
         </div>
-        <div className="hidden lg:block">
+        <div className="hidden llg:block">
           <ul className="flex items-center  ">
             <Link
               href=""

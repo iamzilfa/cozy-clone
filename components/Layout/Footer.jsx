@@ -18,10 +18,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function Footer() {
   return (
     <div className="bg-sandash">
-      <div className="mx-auto container">
-        <div className="flex flex-col pt-10 pb-6 gap-6 lg:gap-20">
-          <div className="md:flex items-center justify-between">
-            <div className="flex flex-col items-center gap-10 md:flex-row">
+      <div className="mx-auto container px-6 w-full max-w-[75rem] mt-0 ssm:pt-10 llg:w-auto llg:pb-6">
+        <div className="flex flex-col pt-10 pb-6 gap-6 llg:gap-20">
+          <div className="mmd:flex items-center justify-between">
+            <div className="flex flex-col items-center gap-10 mmd:flex-row">
               <div>
                 <div></div>
                 <Image
@@ -32,7 +32,7 @@ export default function Footer() {
                 />
               </div>
 
-              <ul className="flex flex-col items-center gap-2 md:gap-5 pb-10 md:pb-0 text-[0.8125rem] leading-5 font-sans font-bold text-fieryOrange md:flex-row">
+              <ul className="flex flex-col items-center gap-2 mmd:gap-5 pb-10 mmd:pb-0 text-[0.8125rem] leading-5 font-sans font-bold text-fieryOrange mmd:flex-row">
                 <Link href="#">
                   <li>About</li>
                 </Link>
@@ -51,7 +51,7 @@ export default function Footer() {
               </ul>
             </div>
 
-            <div className="flex flex-col items-center lg:flex-row gap-7 md:gap-4">
+            <div className="flex flex-col items-center llg:flex-row gap-7 mmd:gap-4">
               <div className="flex space-x-2">
                 <div>
                   <Image
@@ -65,7 +65,7 @@ export default function Footer() {
                   San Diego Digital Designers
                 </p>
               </div>
-              <div className="flex items-center space-x-2 lg:pt-0">
+              <div className="flex items-center space-x-2 llg:pt-0">
                 <Link
                   href="#"
                   className="w-6 h-6 bg-lightBlue rounded flex justify-center items-center"
@@ -121,8 +121,8 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="footerBorder  md:grid md:grid-cols-2 md:items-center lg:pt-4">
-            <div className="flex flex-wrap pt-8  gap-10 ml-10 lg:ml-0 lg:mr-24">
+          <div className="footerBorder  mmd:flex mmd:space-x-10 mmd:items-center llg:pt-4">
+            <div className="flex flex-wrap pt-8  gap-10 ml-10 llg:ml-0 llg:mr-24">
               <div className="flex items-center flex-col gap-6">
                 <div>
                   <Image
@@ -132,7 +132,7 @@ export default function Footer() {
                     height={52.84}
                   />
                 </div>
-                <div className="text-seaworthy text-sm font-bold font-sans">
+                <div className="text-seaworthy text-ssm font-bold font-sans">
                   BBB rating: A+
                 </div>
               </div>
@@ -144,7 +144,7 @@ export default function Footer() {
                   height={73.35}
                 />
               </div>
-              <div className="flex flex-col gap-20 lg:flex-row ">
+              <div className="flex flex-col gap-20 llg:flex-row max-w-">
                 <div className="bg-white h-[3.125rem] border border-concretegray rounded-bl-[1.5625rem] rounded-tr-[1.5625rem]  w-[13.3125rem]">
                   <div className="flex items-center space-x-2">
                     <div>
@@ -205,7 +205,7 @@ export default function Footer() {
               </div>
             </div>
 
-            <div className="flex flex-col mt-16 gap-10 lg:flex-row md:items-centermt-16 md:mt-20 lg:mt-0 md:space-x-2">
+            <div className="flex flex-col mt-16 gap-10 llg:flex-row mmd:items-centermt-16 mmd:mt-20 llg:mt-0 mmd:space-x-2">
               <div className="">
                 <p className="text-center text-anothergray font-sans font-normal text-xs">
                   Made with{" "}
@@ -217,7 +217,7 @@ export default function Footer() {
                   in beautiful, sunny San Diego. ©2021
                 </p>
               </div>
-              <ul className="flex items-center text-xs cursor-pointer text-fieryOrange justify-center space-x-10 md:space-x-5 font-bold font-sans">
+              <ul className="flex items-center text-xs cursor-pointer text-fieryOrange justify-center space-x-10 mmd:space-x-5 font-bold font-sans">
                 <Link href="#">
                   <li>Privacy</li>
                 </Link>
