@@ -19,7 +19,7 @@ export default function Footer() {
   return (
     <div className="bg-sandash">
       <div className="mx-auto container">
-        <div className="flex flex-col w-auto pt-10 pb-6 gap-6 lg:gap-20">
+        <div className="flex flex-col pt-10 pb-6 gap-6 lg:gap-20">
           <div className="md:flex items-center justify-between">
             <div className="flex flex-col items-center gap-10 md:flex-row">
               <div>
@@ -121,7 +121,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="footerBorder  md:flex md:items-center lg:pt-4">
+          <div className="footerBorder  md:grid md:grid-cols-2 md:items-center lg:pt-4">
             <div className="flex flex-wrap pt-8  gap-10 ml-10 lg:ml-0 lg:mr-24">
               <div className="flex items-center flex-col gap-6">
                 <div>
@@ -205,7 +205,7 @@ export default function Footer() {
               </div>
             </div>
 
-            <div className="flex flex-col gap-10 md:flex-row md:items-centermt-16 md:mt-20 lg:mt-0 md:space-x-2">
+            <div className="flex flex-col mt-16 gap-10 lg:flex-row md:items-centermt-16 md:mt-20 lg:mt-0 md:space-x-2">
               <div className="">
                 <p className="text-center text-anothergray font-sans font-normal text-xs">
                   Made with{" "}

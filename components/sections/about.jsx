@@ -5,8 +5,8 @@ export default function About() {
   return (
     <div className="abt h-full">
       <div className="mx-auto container">
-        <div className="flex flex-col lg:flex-row py-48">
-          <div className="flex flex-col pr-20 pl-20">
+        <div className="grid lg:grid-cols-2 py-48">
+          <div className="flex flex-col pl-20">
             <p className="mb-4 font-geomanistBold text-anothergray text-3xl leading-[1em] font-bold tracking-wide uppercase">
               🌴🐻🇺🇸
             </p>
@@ -37,7 +37,7 @@ export default function About() {
             </div>
           </div>
 
-          <div className="flex flex-col sm:flex-row container mt-20 mx-auto sm:space-x-20 lg:space-x-4 items-center gap-8 sm:gap-16 justify-center  lg:mt-0">
+          <div className="flex flex-col sm:flex-row mt-20 sm:space-x-20 lg:space-x-4 items-center gap-8 sm:gap-16 justify-center  lg:mt-0">
             <div className="space-y-8">
               <div>
                 <Image
