@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        ssm: "479px",
+        ssm: { max: "479px" },
         // => @media (max-width: 479px) { ... }
 
         mmd: "767px",
@@ -35,7 +35,7 @@ module.exports = {
         headbg: "linear-gradient(90deg,#302f39,#223240)",
         noisebg: "url('/assets/images/noise10.webp')",
         abtbg: "url('/assets/vectors/stacked-waves-haikei.svg')",
-        helpgrad:"linear-gradient(180deg,rgba(0,0,0,.8),rgba(0,0,0,.8))"
+        helpgrad: "linear-gradient(180deg,rgba(0,0,0,.8),rgba(0,0,0,.8))",
       },
       colors: {
         cameo: "#d4ac8e",
@@ -59,7 +59,12 @@ module.exports = {
         lightBlue: "#1da1f2",
       },
       boxShadow: {
-        'xll': '0 8px 24px 0 rgb(82 91 115 / 12%',
+        xll: "0 8px 24px 0 rgb(82 91 115 / 12%",
+        xxl: "0 10px 24px 0 rgb(196 125 87 / 90%)",
+        llxx: "0 10px 24px 0 rgb(45 72 80 / 70%)"
+      },
+      backgroundSize: {
+        "50%": "50%",
       },
     },
   },

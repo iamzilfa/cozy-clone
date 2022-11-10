@@ -3,7 +3,7 @@ import Button from "../ui/Button";
 
 export default function About() {
   return (
-    <div className="abt h-full py-[8.75rem] px-[1.5rem]">
+    <div className="abt h-full py-[6.5rem] px-[1.5rem]">
       <div className="mx-auto container w-full max-w-[75rem] pl-[1.25rem]">
         <div className="grid llg:grid-cols-2 py-48">
           <div className="flex flex-col">
@@ -37,7 +37,7 @@ export default function About() {
             </div>
           </div>
 
-          <div className="flex flex-col ssm:flex-row mt-20 ssm:space-x-20 llg:space-x-4 items-center gap-8 ssm:gap-16 justify-center  llg:mt-0">
+          <div className="flex flex-col mmd:flex-row mt-20 mmd:space-x-20 llg:space-x-4 items-center gap-8 mmd:gap-16 justify-center  llg:mt-0">
             <div className="space-y-8">
               <div>
                 <Image
@@ -88,7 +88,7 @@ export default function About() {
                     height={52.84}
                   />
                 </div>
-                <div className="text-seaworthy text-ssm font-bold font-sans">
+                <div className="text-seaworthy text-mmd font-bold font-sans">
                   BBB rating: A+
                 </div>
               </div>

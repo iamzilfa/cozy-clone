@@ -1,4 +1,5 @@
 import About from "./about";
+import Brand from "./Brand";
 import Client from "./Client";
 import Design from "./Design";
 import Header from "./header";
@@ -9,8 +10,9 @@ export default function HomePage() {
     <>
     <Header />
     <About />
-    {/* <Client /> */}
-    {/* <Design /> */}
+    <Client />
+    <Brand />
+    <Design />
     <Help />
     </>
   )
